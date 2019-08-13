@@ -1,6 +1,6 @@
 *** Variables ***
 ${modal}                   css=body.modal-open
-${hamberger_menu}    //a[@class="jh-navbar-toggler d-none d-xs-none d-sm-none d-md-block float-left"]
+${hamberger_menu}    //div[@class="jh-logo-container"]/a[1]/span[@class="fa fa-bars"]
 ${nav_right_menu}    //div[@id="navbarResponsive"][@class="navbar-collapse"]
 #Dynamic locators
 ${mnu_right_menu_bar}    //*[@id="navbarResponsive"]//span[text()="_DYNAMIC_0"]

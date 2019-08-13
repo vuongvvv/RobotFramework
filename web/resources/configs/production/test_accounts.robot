@@ -1,0 +1,13 @@
+*** Variables ***
+${ESTAMP_ADMIN_USER}        66817837877
+${ESTAMP_ADMIN_PASSWORD}    1234567890
+
+#WEB AUDIT
+${DRIVER_USERNAME}    driver
+${DRIVER_PASSWORD}    sendit
+${FRAUD_USERNAME}    aassdd
+${FRAUD_PASSWORD}    112233
+
+#True Money Admin Portal
+${TRUE_MONEY_USERNAME}    user1234
+${TRUE_MONEY_PASSWORD}    welcome1
