@@ -6,7 +6,7 @@ Resource    ../../../keywords/go_bear/common_keywords.robot
 Resource    ../../../keywords/go_bear/home_keywords.robot
 Resource    ../../../keywords/go_bear/travel_insurance_search_results_keywords.robot  
 
-Test Setup    Open Browser With Option    ${GO_BEAR_URL}    headless_mode=${True}    
+Test Setup    Open Browser With Option    ${GO_BEAR_URL}    headless_mode=${False}    
 Test Teardown    Clean Environment
 
 *** Variables ***
