@@ -17,8 +17,6 @@ ${chk_insurers_filter}    //div[@data-filter-name="_DYNAMIC_0"]
 ${rdo_policy_type_details}    //label[contains(text(),"_DYNAMIC_0")]//parent::div
 ${btn_slider_min}    //label[contains(text(),"_DYNAMIC_0")]//following-sibling::div//div[@class="slider-handle min-slider-handle round"]
 ${btn_slider_max}    //label[contains(text(),"_DYNAMIC_0")]//following-sibling::div//div[@class="slider-handle max-slider-handle round"]
-# ${drd_item_travel_plan}    //span[@class='two-col'][contains(text(),'_DYNAMIC_0')]//following-sibling::link
-# ${drd_item_travel_people}    //span[contains(text(),'_DYNAMIC_0')]//following-sibling::link
 ${drd_item_destination}    (//span[@class="two-col"][text()="_DYNAMIC_0"])[1]//following-sibling::link
 ${btn_select_year_on_year_picker}    //div[@class='datepicker-years']//span[text()="_DYNAMIC_0"]
 ${btn_select_month_on_month_picker}    //div[@class='datepicker-months']//span[text()="_DYNAMIC_0"]
