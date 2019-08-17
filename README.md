@@ -6,6 +6,7 @@
 3. Install Selenium Library
 4. Install ChromeDriver
 5. Run the tests
+	robot --variable env:production --loglevel TRACE -i regression --outputdir testreports {PATH TO REPO}\RobotFramework\web\testcases\go_bear\
 ```
 
 
