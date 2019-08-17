@@ -1,17 +1,17 @@
-Rather than the Robot Framework Standard library, please install the following libraries before start test execution:
+## Environment set up
 
-RequestsLibrary
-- Command: pip install -U requests
-- Command: pip install -U robotframework-requests
-- Repository: https://github.com/bulkan/robotframework-requests
-- Documentation: http://bulkan.github.io/robotframework-requests/
+```
+1. Install Python
+2. Install Robot Framework
+3. Install Selenium Library
+4. Install ChromeDriver
+5. Run the tests
+```
 
-JsonLibrary
-- Command: pip install -U robotframework-jsonlibrary
-- Repository: https://github.com/nottyo/robotframework-jsonlibrary
-- Documentation: https://nottyo.github.io/robotframework-jsonlibrary/JSONLibrary.html
 
-DatabaseLibrary
-- Command: pip install -U robotframework-databaselibrary
-- Repository: https://github.com/Hi-Fi/robotframework-dblibrary
-- Documentation: https://franz-see.github.io/Robotframework-Database-Library/api/0.5/DatabaseLibrary.html
+- Install ChromeDriver
+brew cask install chromedriver
+- Check ChromeDriver version on cmd
+chromedriver --version
+- Example command to run
+pybot -v ENV:alpha /Users/vuong.vie/o2o-api-automation/web/testcases/admintools/e-stamp/main_page_estamp/date_format_test.robot
